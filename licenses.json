@@ -1,0 +1,232 @@
+{
+  "trekhleb/javascript-algorithms": {
+    "licenses": "MIT",
+    "repository": "https://github.com/trekhleb/javascript-algorithms",
+    "publisher": "Oleksii Trekhleb"
+  },
+  "TheAlgorithms/Python": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TheAlgorithms/Python",
+    "publisher": "The Algorithms"
+  },
+  "TheAlgorithms/Java": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TheAlgorithms/Java",
+    "publisher": "The Algorithms"
+  },
+  "jwasham/coding-interview-university": {
+    "licenses": "CC BY-SA",
+    "repository": "https://github.com/jwasham/coding-interview-university",
+    "publisher": "John Washam"
+  },
+  "yangshun/tech-interview-handbook": {
+    "licenses": "MIT",
+    "repository": "https://github.com/yangshun/tech-interview-handbook",
+    "publisher": "Yangshun Tay"
+  },
+  "yangshun/front-end-interview-handbook": {
+    "licenses": "MIT",
+    "repository": "https://github.com/yangshun/front-end-interview-handbook",
+    "publisher": "Yangshun Tay"
+  },
+  "kdn251/interviews": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kdn251/interviews",
+    "publisher": "Kevin Naughton Jr."
+  },
+  "TheAlgorithms/Go": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TheAlgorithms/Go",
+    "publisher": "The Algorithms"
+  },
+  "TheAlgorithms/C": {
+    "licenses": "GNU GENERAL PUBLIC LICENSE",
+    "repository": "https://github.com/TheAlgorithms/C",
+    "publisher": "The Algorithms"
+  },
+  "TheAlgorithms/C-Plus-Plus": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TheAlgorithms/C-Plus-Plus",
+    "publisher": "The Algorithms"
+  },
+  "EbookFoundation/free-programming-books": {
+    "licenses": "CC BY-SA",
+    "repository": "https://github.com/EbookFoundation/free-programming-books",
+    "publisher": "Victor Felder, the Free Ebook Foundation, and contributors"
+  },
+  "@react-native-community/clipboard": {
+    "licenses": "MIT",
+    "repository": "https://github.com/react-native-community/clipboard",
+    "publisher": "M.Haris Baig",
+    "email": "harisbaig100@gmail.com",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/@react-native-community/clipboard",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/@react-native-community/clipboard/LICENSE"
+  },
+  "@react-native-community/masked-view": {
+    "licenses": "MIT",
+    "repository": "https://github.com/react-native-community/react-native-masked-view",
+    "publisher": "Mike Nedosekin",
+    "email": "crespo8800@gmail.com",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/@react-native-community/masked-view",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/@react-native-community/masked-view/README.md"
+  },
+  "@use-expo/font": {
+    "licenses": "MIT",
+    "repository": "https://github.com/bycedric/use-expo",
+    "publisher": "Cedric van Putten",
+    "email": "me@bycedric.com",
+    "url": "https://bycedric.com",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/@use-expo/font",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/@use-expo/font/README.md"
+  },
+  "color": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Qix-/color",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/color",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/color/LICENSE"
+  },
+  "debounce": {
+    "licenses": "MIT",
+    "repository": "https://github.com/component/debounce",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/debounce",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/debounce/LICENSE"
+  },
+  "fuzzy-search": {
+    "licenses": "ISC",
+    "repository": "https://github.com/wouter2203/fuzzy-search",
+    "publisher": "Wouter Rutgers",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/fuzzy-search",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/fuzzy-search/LICENSE.md"
+  },
+  "galio-framework": {
+    "licenses": "MIT",
+    "repository": "https://github.com/galio-org/galio",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/galio-framework",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/galio-framework/LICENSE.md"
+  },
+  "javascript-playgrounds": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/dabbott/javascript-playgrounds",
+    "publisher": "devinabbott@gmail.com",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/javascript-playgrounds",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/javascript-playgrounds/LICENSE"
+  },
+  "lottie-ios": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/airbnb/lottie-ios",
+    "publisher": "Brandon Withrow",
+    "email": "buba447@gmail.com",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/lottie-ios",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/lottie-ios/LICENSE"
+  },
+  "lottie-react-native": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/react-native-community/lottie-react-native",
+    "publisher": "Emilio Rodriguez",
+    "email": "emiliorodriguez@gmail.com",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/lottie-react-native",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/lottie-react-native/LICENSE"
+  },
+  "prop-types": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/prop-types",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/prop-types",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/prop-types/LICENSE"
+  },
+  "punycode": {
+    "licenses": "MIT",
+    "repository": "https://github.com/bestiejs/punycode.js",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/punycode",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/punycode/LICENSE-MIT.txt"
+  },
+  "react-dom": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/react",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/react-dom",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/react-dom/LICENSE"
+  },
+  "react-native-action-button": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mastermoo/react-native-action-button",
+    "publisher": "Yousef Kamawall",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/react-native-action-button",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/react-native-action-button/LICENSE"
+  },
+  "react-native-animatable": {
+    "licenses": "MIT",
+    "repository": "https://github.com/oblador/react-native-animatable",
+    "publisher": "Joel Arvidsson",
+    "email": "joel@oblador.se",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/react-native-animatable",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/react-native-animatable/LICENSE"
+  },
+  "react-native-final-tree-view": {
+    "licenses": "MIT",
+    "repository": "https://github.com/zaguiini/react-native-final-tree-view",
+    "publisher": "Luis Felipe Zaguini",
+    "email": "luisfelipezaguini@gmail.com",
+    "url": "https://github.com/zaguiini",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/react-native-final-tree-view",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/react-native-final-tree-view/LICENSE.md"
+  },
+  "react-native-markdown-display": {
+    "licenses": "MIT",
+    "repository": "https://github.com/iamacup/react-native-markdown-display",
+    "publisher": "Mient-jan Stelling and Tom Pickard + others from the community",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/react-native-markdown-display",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/react-native-markdown-display/LICENSE"
+  },
+  "react-native-reanimated": {
+    "licenses": "MIT",
+    "repository": "https://github.com/software-mansion/react-native-reanimated",
+    "publisher": "Krzysztof Magiera",
+    "email": "krzys.magiera@gmail.com",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/react-native-reanimated",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/react-native-reanimated/LICENSE"
+  },
+  "react-native-safe-area-context": {
+    "licenses": "MIT",
+    "repository": "https://github.com/th3rdwave/react-native-safe-area-context",
+    "publisher": "Janic Duplessis",
+    "email": "janicduplessis@gmail.com",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/react-native-safe-area-context",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/react-native-safe-area-context/LICENSE"
+  },
+  "react-native-screens": {
+    "licenses": "MIT",
+    "repository": "https://github.com/software-mansion/react-native-screens",
+    "publisher": "Krzysztof Magiera",
+    "email": "krzys.magiera@gmail.com",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/react-native-screens",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/react-native-screens/LICENSE"
+  },
+  "react-native-syntax-highlighter": {
+    "licenses": "MIT",
+    "repository": "https://github.com/conorhastings/react-native-syntax-highlighter",
+    "publisher": "Conor Hastings",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/react-native-syntax-highlighter",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/react-native-syntax-highlighter/README.md"
+  },
+  "react": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/react",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/react",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/react/LICENSE"
+  },
+  "redux-persist": {
+    "licenses": "MIT",
+    "repository": "https://github.com/rt2zz/redux-persist",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/redux-persist",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/redux-persist/LICENSE"
+  },
+  "redux-thunk": {
+    "licenses": "MIT",
+    "repository": "https://github.com/reduxjs/redux-thunk",
+    "publisher": "Dan Abramov",
+    "email": "dan.abramov@me.com",
+    "path": "/Users/olaide/Documents/algoals/algorithms/node_modules/redux-thunk",
+    "licenseFile": "/Users/olaide/Documents/algoals/algorithms/node_modules/redux-thunk/LICENSE.md"
+  }
+}
