@@ -6,6 +6,9 @@
         "buildType": "apk",
         "gradleCommand": ":app:assembleRelease",
         "developmentClient": true
+      },
+      "ios": {
+        "simulator": true
       }
     },
     "preview2": {
