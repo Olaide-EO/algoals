@@ -52,7 +52,8 @@
     "react-syntax-highlighter": "^15.4.3",
     "redux": "^4.1.0",
     "redux-persist": "^6.0.0",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "uri-scheme": "^1.0.98"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0"
