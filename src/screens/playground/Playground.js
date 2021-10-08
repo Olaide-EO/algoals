@@ -1,8 +1,7 @@
 import React from "react";
 import { View, StyleSheet, Dimensions } from "react-native";
-import { Block } from "galio-framework";
+import { Block, Text } from "galio-framework";
 import { useNavigation } from "@react-navigation/native";
-import LottieView from "lottie-react-native";
 import argonTheme from "../../constants/Theme";
 import { MainHeader } from "../../components";
 
@@ -30,12 +29,19 @@ const Playground = ({ route }) => {
       />
 
       <Block center style={styles.animationContainer}>
-        <LottieView
-          style={{ height: height / 2.3, width, zIndex: 2 }}
-          source={require("../../assets/lottie/comingsoon.json")}
-          autoPlay
-          loop
-        />
+        <Text style={{ color: "#ffffff", fontSize: "20", fontWeight: "bold" }}>
+          Coming Soon
+        </Text>
+        <Text
+          style={{
+            color: "#ffffff",
+            fontSize: "15",
+            marginTop: 40,
+            lineHeight: 20,
+          }}
+        >
+          Working on some awesome features to improve your experience
+        </Text>
       </Block>
     </View>
   );

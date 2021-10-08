@@ -18,8 +18,46 @@ PODS:
     - ExpoModulesCore
     - React-Core
     - UMCore
+  - EXJSONUtils (0.2.0)
   - EXKeepAwake (9.2.0):
     - UMCore
+  - EXManifests (0.2.1):
+    - EXJSONUtils
+  - expo-dev-client (0.6.0):
+    - EXManifests
+    - expo-dev-launcher
+    - expo-dev-menu
+    - expo-dev-menu-interface
+    - EXUpdatesInterface
+  - expo-dev-launcher (0.8.1):
+    - EXManifests
+    - expo-dev-launcher/Main (= 0.8.1)
+    - expo-dev-menu-interface
+    - EXUpdatesInterface
+    - React-Core
+  - expo-dev-launcher/Main (0.8.1):
+    - EXManifests
+    - expo-dev-launcher/Unsafe
+    - expo-dev-menu-interface
+    - EXUpdatesInterface
+    - React-Core
+  - expo-dev-launcher/Unsafe (0.8.1):
+    - EXManifests
+    - expo-dev-menu-interface
+    - EXUpdatesInterface
+    - React-Core
+  - expo-dev-menu (0.8.2):
+    - expo-dev-menu-interface
+    - expo-dev-menu/Main (= 0.8.2)
+    - React-Core
+  - expo-dev-menu-interface (0.4.1)
+  - expo-dev-menu/Main (0.8.2):
+    - expo-dev-menu-interface
+    - expo-dev-menu/Vendored
+    - React-Core
+  - expo-dev-menu/Vendored (0.8.2):
+    - expo-dev-menu-interface
+    - React-Core
   - ExpoModulesCore (0.2.0):
     - ExpoModulesCore/Core (= 0.2.0)
     - ExpoModulesCore/Interfaces (= 0.2.0)
@@ -39,7 +77,7 @@ PODS:
     - EXUpdatesInterface
     - React-Core
     - UMCore
-  - EXUpdatesInterface (0.2.2)
+  - EXUpdatesInterface (0.4.0)
   - FBLazyVector (0.63.4)
   - FBReactNativeSpec (0.63.4):
     - Folly (= 2020.01.13.00)
@@ -58,10 +96,6 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
-  - lottie-ios (3.2.3)
-  - lottie-react-native (4.1.3):
-    - lottie-ios (~> 3.2.3)
-    - React-Core
   - RCTRequired (0.63.4)
   - RCTTypeSafety (0.63.4):
     - FBLazyVector (= 0.63.4)
@@ -230,6 +264,8 @@ PODS:
   - React-jsinspector (0.63.4)
   - react-native-safe-area-context (3.2.0):
     - React-Core
+  - react-native-viewpager (5.0.12):
+    - React-Core
   - React-RCTActionSheet (0.63.4):
     - React-Core/RCTActionSheetHeaders (= 0.63.4)
   - React-RCTAnimation (0.63.4):
@@ -348,18 +384,22 @@ DEPENDENCIES:
   - EXFileSystem (from `../node_modules/expo-file-system/ios`)
   - EXFont (from `../node_modules/expo-font/ios`)
   - EXImageLoader (from `../node_modules/expo-image-loader/ios`)
+  - EXJSONUtils (from `../node_modules/expo-json-utils/ios`)
   - EXKeepAwake (from `../node_modules/expo-keep-awake/ios`)
+  - EXManifests (from `../node_modules/expo-manifests/ios`)
+  - expo-dev-client (from `../node_modules/expo-dev-client`)
+  - expo-dev-launcher (from `../node_modules/expo-dev-launcher`)
+  - expo-dev-menu (from `../node_modules/expo-dev-menu`)
+  - expo-dev-menu-interface (from `../node_modules/expo-dev-menu-interface`)
   - ExpoModulesCore (from `../node_modules/expo-modules-core/ios`)
   - EXSplashScreen (from `../node_modules/expo-splash-screen/ios`)
   - EXStructuredHeaders (from `../node_modules/expo-structured-headers/ios`)
   - EXUpdates (from `../node_modules/expo-updates/ios`)
-  - EXUpdatesInterface (from `../node_modules/expo-updates-interface/ios`)
+  - EXUpdatesInterface (from `../node_modules/expo-dev-client/node_modules/expo-updates-interface/ios`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - FBReactNativeSpec (from `../node_modules/react-native/Libraries/FBReactNativeSpec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
-  - lottie-ios (from `../node_modules/lottie-ios`)
-  - lottie-react-native (from `../node_modules/lottie-react-native`)
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
   - RCTTypeSafety (from `../node_modules/react-native/Libraries/TypeSafety`)
   - React (from `../node_modules/react-native/`)
@@ -373,6 +413,7 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
+  - react-native-viewpager (from `../node_modules/react-native-pager-view`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
   - React-RCTBlob (from `../node_modules/react-native/Libraries/Blob`)
@@ -414,8 +455,20 @@ EXTERNAL SOURCES:
     :path: "../node_modules/expo-font/ios"
   EXImageLoader:
     :path: "../node_modules/expo-image-loader/ios"
+  EXJSONUtils:
+    :path: "../node_modules/expo-json-utils/ios"
   EXKeepAwake:
     :path: "../node_modules/expo-keep-awake/ios"
+  EXManifests:
+    :path: "../node_modules/expo-manifests/ios"
+  expo-dev-client:
+    :path: "../node_modules/expo-dev-client"
+  expo-dev-launcher:
+    :path: "../node_modules/expo-dev-launcher"
+  expo-dev-menu:
+    :path: "../node_modules/expo-dev-menu"
+  expo-dev-menu-interface:
+    :path: "../node_modules/expo-dev-menu-interface"
   ExpoModulesCore:
     :path: "../node_modules/expo-modules-core/ios"
   EXSplashScreen:
@@ -425,7 +478,7 @@ EXTERNAL SOURCES:
   EXUpdates:
     :path: "../node_modules/expo-updates/ios"
   EXUpdatesInterface:
-    :path: "../node_modules/expo-updates-interface/ios"
+    :path: "../node_modules/expo-dev-client/node_modules/expo-updates-interface/ios"
   FBLazyVector:
     :path: "../node_modules/react-native/Libraries/FBLazyVector"
   FBReactNativeSpec:
@@ -434,10 +487,6 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
   glog:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
-  lottie-ios:
-    :path: "../node_modules/lottie-ios"
-  lottie-react-native:
-    :path: "../node_modules/lottie-react-native"
   RCTRequired:
     :path: "../node_modules/react-native/Libraries/RCTRequired"
   RCTTypeSafety:
@@ -460,6 +509,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
+  react-native-viewpager:
+    :path: "../node_modules/react-native-pager-view"
   React-RCTActionSheet:
     :path: "../node_modules/react-native/Libraries/ActionSheetIOS"
   React-RCTAnimation:
@@ -512,18 +563,22 @@ SPEC CHECKSUMS:
   EXFileSystem: 0a04aba8da751b9ac954065911bcf166503f8267
   EXFont: 9846ba1bb6f5f5aed44e20eea3ac70693323832d
   EXImageLoader: d3531a3fe530b22925c19977cb53bb43e3821fe6
+  EXJSONUtils: f515cf71710855d7ba5bfc6752af3b9a6f6aad01
   EXKeepAwake: f4105ef469be7b283f66ce2d7234bb71ac80cd26
+  EXManifests: fdbb8a0c2cd5fc4acc1ae90b55ce91617aba9365
+  expo-dev-client: 97a9589d2ea0325a8dd4dff284fe3a4b9166bbce
+  expo-dev-launcher: 7a90ad1519263eda3e8675bf6712f2f89f8fe2a9
+  expo-dev-menu: 5b0593d3ad5f32e92e363f4cc061fe70666da31f
+  expo-dev-menu-interface: 508467f2ba2aedda7a44e5080cc1e9a43ab7375e
   ExpoModulesCore: 2734852616127a6c1fc23012197890a6f3763dc7
   EXSplashScreen: 847e0d8026731c1090bf269ede3e15ac87d88958
   EXStructuredHeaders: e52b880264d15b8ad07d36670226c29476af6334
   EXUpdates: 013d26649cb6ab4f8d8d80c35d3d4be150b47e7c
-  EXUpdatesInterface: b68e78b912a03fff7901a5f46ec200c45e3506a5
+  EXUpdatesInterface: e1c01b4f5ec76bd1d6cc714938f9edf5ef6379b9
   FBLazyVector: 3bb422f41b18121b71783a905c10e58606f7dc3e
   FBReactNativeSpec: f2c97f2529dd79c083355182cc158c9f98f4bd6e
   Folly: b73c3869541e86821df3c387eb0af5f65addfab4
   glog: 40a13f7840415b9a77023fbcae0f1e6f43192af3
-  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
-  lottie-react-native: b561920bba7ec727ec94a473b683cffba00faece
   RCTRequired: 082f10cd3f905d6c124597fd1c14f6f2655ff65e
   RCTTypeSafety: 8c9c544ecbf20337d069e4ae7fd9a377aadf504b
   React: b0a957a2c44da4113b0c4c9853d8387f8e64e615
@@ -535,6 +590,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 93bd528844ad21dc07aab1c67cb10abae6df6949
   React-jsinspector: 58aef7155bc9a9683f5b60b35eccea8722a4f53a
   react-native-safe-area-context: f0906bf8bc9835ac9a9d3f97e8bde2a997d8da79
+  react-native-viewpager: 98a850d1c7ac6263122d82618a77062a5f427073
   React-RCTActionSheet: 89a0ca9f4a06c1f93c26067af074ccdce0f40336
   React-RCTAnimation: 1bde3ecc0c104c55df246eda516e0deb03c4e49b
   React-RCTBlob: a97d378b527740cc667e03ebfa183a75231ab0f0
@@ -557,6 +613,6 @@ SPEC CHECKSUMS:
   UMTaskManagerInterface: 2be431101b73604e64fbfffcf759336f9d8fccbb
   Yoga: 4bd86afe9883422a7c4028c00e34790f560923d6
 
-PODFILE CHECKSUM: 4eeaf9adb94122614f58483f6f21b33a3a42f904
+PODFILE CHECKSUM: 51b44942c161f4506c38c5fd9a7ab202e0406ca0
 
 COCOAPODS: 1.11.2

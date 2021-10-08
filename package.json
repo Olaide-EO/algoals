@@ -27,8 +27,6 @@
     "fuzzy-search": "^3.2.1",
     "galio-framework": "^0.8.0",
     "javascript-playgrounds": "^1.1.4",
-    "lottie-ios": "^3.2.3",
-    "lottie-react-native": "4.0.2",
     "performant-array-to-tree": "^1.8.2",
     "prop-types": "^15.7.2",
     "punycode": "^2.1.1",
